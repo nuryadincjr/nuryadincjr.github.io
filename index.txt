@@ -1,0 +1,264 @@
+Nuryadin Abutani - Personal Portfolio
+
+# sidebar
+
+alt = Nuryadin Abutani
+Nuryadin Abutani
+Android developer
+
+Show Contacts
+
+Email
+nuryadin.cjr@gmail.com
+
+Phone
++62 815-4118-1633
+
+WhatsApp
++62 815-4118-1633
+
+Birthday
+Oct 07, 2000
+
+Location
+Bandung Regency, West Java, Indonesia
+
+# navbar
+
+About
+Resume
+Portfolio
+Contact
+
+# about
+
+About me
+
+I am a recent graduate in Computer Science from Sekolah Tinggi Teknologi Bandung, and a participant in the Independent Study Program at Kampus Merdeka with Hacktiv8 and Bangkit Academy 2022. The program was sponsored by Google, GoTo, and Traveloka, with a focus on Mobile Development.
+
+I have a strong understanding of Android application development and possess soft skills including excellent communication skills, solid teamwork and collaboration, as well as a high level of self-directed learning ability.
+
+
+## service
+
+What i'm doing
+
+alt = ui/ux design icon
+UI/UX Design
+Creating Modern and Intuitive User Experiences at a Professional Level.
+
+alt = mobile development icon
+Mobile development
+Building High-Quality Mobile Apps at a Professional Level.
+
+alt = logo and branding design icon
+Logo And Branding Design
+Crafting Unique Identities that Speak for Your Business.
+
+
+## clients
+
+Clients
+
+alt = LukaKu logo
+
+
+
+# resume
+
+Resume
+
+Education
+
+Sekolah Tinggi Teknologi Bandung
+S.Kom, Teknik Informatika
+Jan 2019 — Apr 2008
+• Graduated cum laude with a 3.69 GPA.
+• Received a Certificate of Achievement Graduates with the Best Thesis.
+• Participant of SMK TI Bali Global Logo Rebranding.
+• Participant of Gemastik 14 - Knowledge and Regional Language Sharing Application Design (Shareon) in the User Experience Design (UX Design) category.
+
+Institut Teknologi dan Bisnis  STIKOM Bali
+Perkuliahan KMMB STTB-ITB STIKOM BALI
+Feb 2020 — Jul 2021
+• Student exchange program between STT Bandung and ITB STIKOM Bali for one semester during the fourth semester.              </p>
+• Developed Digital Plant Web-Based Application and Mobile-Based Share-One Application.
+
+SMA Negeri 2 Cibinong
+IPS
+Jul 2016 — Mey 2019
+
+SMP Negeri 4 Cibinong
+Jul 2013 — Jun 2016
+
+SD Negeri Padasuka
+Mar 2007 — Apr 2013
+
+
+
+Experience
+
+Android Engineer
+LukaKu
+Jul 2022 — Present
+• Involved in the development of the LukaKu application, particularly in the development of the nearby healthcare services navigation, camera, and wound detection features.
+• Created and launched a new company branding, including logo design, brand guidelines, and user manual.
+• Involved in the National Competitive Basic Research (PDKN) with the title - The Development of the LukaKu Application as A Tool for Detecting External Wounds with Artificial Intelligence.
+• Received a certificate for completing the Bangkit 2022 Incubation Programs.
+
+
+Mobile designer
+Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+Feb 2022 — Jul 2022
+• Graduate at Bangkit 2022, by Google, GoTo, Traveloka - Android Learning Path.
+• Mastering Android Applications concepts and implementation to solve various mobile development problems.
+• Received 7 certificates related to Mobile Development through Dicoding Academy. 
+• Worked on a Company-Based Capstone Project with LukaKu, instant wound detection services by means of first aid and drug recommendations.
+• Received the Bangkit 2022 graduation certificate and the Best Capstone Team certificate.
+
+Android with Java Native
+Hacktiv8 Indonesia
+Aug 2021 — Feb 2022
+• Graduate at Hacktiv8, Studi Independen Kampus Merdeka Batch 1 - Android with Java Native.
+• Developed 4 Final Application Projects: ToDoList, Merdeka Belanja, Droidtor, E-Busantara.
+• Received 3 certificates related to Mobile Development through Hacktiv8.
+• Received a certificate of graduation from Hacktiv8.               
+
+
+My skills
+
+Android Compose
+Jetpack Compose Crash course for Android with Kotlin
+
+
+Android Development
+Android Engineer at LukaKu
+Mobile Development Learning Path at Bangkit Academy led by Google, Tokopedia, Gojek, & TravelokaMobile Development Learning Path at Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+Android with Java Native at Hacktiv8 IndonesiaAndroid with Java Native at Hacktiv8 Indonesia
+
+Java
+Android with Java Native at Hacktiv8 IndonesiaAndroid with Java Native at Hacktiv8 Indonesia
+
+Kotlin
+Mobile Development Learning Path at Bangkit Academy led by Google, Tokopedia, Gojek, & TravelokaMobile Development Learning Path at Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+
+User Experience Design (UED)
+Android Engineer at LukaKu
+
+Graphic Design & Branding
+Android Engineer at LukaKu
+
+Technical Support
+Specialized Google IT Support
+
+# portfolio
+
+Portfolio
+
+All
+Applications
+Mobile development
+Web development
+UI/UX Design
+Logo and Branding Design
+
+Select category
+All
+Applications
+Mobile development
+Web development
+UI/UX Design
+Logo and Branding Design
+
+
+alt = lukaku
+LukaKu
+Applications
+
+alt = sistem informasi akuntansi (sia)
+Sistem Informasi Akuntansi (SIA)
+Applications
+
+alt = lukaku incubation project bangkit 2022
+LukaKu Incubation Project Bangkit 2022
+Mobile development
+
+alt = lukaku capstone project bangkit 2022
+LukaKu Capstone Project Bangkit 2022
+Mobile development
+
+alt = e-busantara
+E-Busantara
+Mobile development
+
+alt = droidtor
+Droidtor
+Mobile development
+
+alt = merdeka belanja
+Merdeka Belanja
+Mobile development
+
+alt = to do list
+To Do List
+Mobile development
+
+alt = share-on
+Share-On
+Mobile development
+
+alt = tanaman digital
+Tanaman Digital
+Web development
+
+alt = luxa (deteksi luka dengan kamera)
+Luxa (Deteksi luka dengan kamera)
+UI/UX Design
+
+alt = gemastik 14 desain pengalaman pengguna - 14040616 - bahasa nusantara - shareon
+GEMASTIK 14 Desain Pengalaman Pengguna - 14040616 - Bahasa Nusantara - ShareOn
+UI/UX Design
+
+alt = cakeQue ui
+CakeQue UI
+UI/UX Design
+
+alt = aplikasi al-qur'an, do'a, hadis dan konten islam
+Aplikasi Al-Qur'an, Do'a, Hadis dan Konten Islam
+UI/UX Design
+
+alt = rebranding logo lukaku
+Rebranding Logo LukaKu
+Logo and Branding Design
+
+alt = rebranding logo smk ti bali global
+Rebranding Logo SMK TI Bali Global
+Logo and Branding Design
+
+
+alt = channel naonnya logo
+Channel Naonnya Logo
+Logo and Branding Design
+
+
+alt = share-online
+Share-Online
+Logo and Branding Design
+
+alt = cake que
+Cake Que
+Logo and Branding Design
+
+
+
+# contact
+
+Contact
+
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message

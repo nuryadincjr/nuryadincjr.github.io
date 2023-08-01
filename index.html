@@ -1,328 +1,1170 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <meta name="description" content="Portofolio Mahasiswa Teknik Informatika STTBandung" />
-    <meta name="author" content="Nuryadin Abutani" />
-    <!-- Buat kamu, "Jodoh mah gak akan kemana, karna kita musafir cinta kita pasti bertemu dijalan" -->
-    <link rel="icon" type="image/png" sizes="16x16" href="img/icon.png" />
-    <!-- Boostrap Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/d9886f1fc4.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuryadin Abutani - Personal Portfolio</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    <title>My Portofolio | Nuryadin Abutani</title>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!-- -  
+    remixicon
+   -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body id="home">
-    <!-- Navbar -->
-    <nav class="navbar shadow-sm navbar-expand-lg navbar-dark bg-col fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Nuryadin Abutani</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/owner.jpg" alt="Nuryadin Abutani" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Nuryadin Abutani">Nuryadin Abutani</h1>
+
+          <p class="title">Android developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <i class="ri-arrow-down-s-line"></i>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="ri-mail-line"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nuryadin.cjr@gmail.com" class="contact-link">nuryadin.cjr@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="ri-smartphone-line"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+6281541181633" class="contact-link">+62 815-4118-1633</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="ri-whatsapp-line"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">WhatsApp</p>
+
+              <a href="https://wa.me/6281541181633" class="contact-link">+62 815-4118-1633</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="ri-calendar-line"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">Oct 07, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <i class="ri-map-pin-line"></i>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bandung Regency, West Java, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/nuryadin-abutani" class="social-link">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/nuryadin.cjr" class="social-link">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.twitter.com/nuryadin.cjr" class="social-link">
+              <i class="ri-twitter-x-fill"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.threads.net/@nuryadin.cjr" class="social-link">
+              <i class="ri-threads-fill"></i>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.instagram.com/nuryadin.cjr" class="social-link">
+              <i class="ri-instagram-fill"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/nuryadincjr" class="social-link">
+              <i class="ri-github-fill"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://dribbble.com/nuryadincjr" class="social-link">
+              <i class="ri-dribbble-fill"></i>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a recent graduate in Computer Science from Sekolah Tinggi Teknologi Bandung, and a participant in the Independent Study Program at Kampus Merdeka with Hacktiv8 and Bangkit Academy 2022. The program was sponsored by Google, GoTo, and Traveloka, with a focus on Mobile Development.
+          </p>
+
+          <p>
+            I have a strong understanding of Android application development and possess soft skills including excellent communication skills, solid teamwork and collaboration, as well as a high level of self-directed learning ability.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="ui/ux design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                <p class="service-item-text">
+                  Creating Modern and Intuitive User Experiences at a Professional Level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile development</h4>
+
+                <p class="service-item-text">
+                  Building High-Quality Mobile Apps at a Professional Level.                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="logo and branding design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Logo And Branding Design</h4>
+
+                <p class="service-item-text">
+                  Crafting Unique Identities that Speak for Your Business.                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://github.com/LukaKu-Bangkit2022">
+                <img src="https://user-images.githubusercontent.com/51723168/219257646-08b82cbb-ae30-4d7f-8efa-bd02697c1dbe.png" alt="LukaKu logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+          <a href="https://drive.usercontent.google.com/download?id=1-4vL-KQjwtEVsDAC55rsijSMPRSLRWGi&export=download&authuser=0&confirm=t&uuid=6fe21767-4ba9-40e9-b8ee-8890897a4d3a&at=AC2mKKT0WnoEVa_F7ep9r_qJLyIP:1690897423462" alt="download resume" download>
+            <i class="ri-file-download-line resume-icon"></i>
+          </a>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <i class="ri-book-open-line"></i>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sekolah Tinggi Teknologi Bandung</h4>
+
+              <h5 class="h5 timeline-item-title">S.Kom, Teknik Informatika</h5>
+
+              <span>Jan 2019 — Apr 2008</span>
+
+              <p class="timeline-text">
+                • Graduated cum laude with a 3.69 GPA.
+              </p>
+              <p class="timeline-text">
+                • Received a Certificate of Achievement Graduates with the Best Thesis.
+              </p>
+              <p class="timeline-text">
+                • Participant of SMK TI Bali Global Logo Rebranding.
+              </p>
+              <p class="timeline-text">
+                • Participant of Gemastik 14 - Knowledge and Regional Language Sharing Application Design (Shareon) in the User Experience Design (UX Design) category.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Institut Teknologi dan Bisnis  STIKOM Bali</h4>
+              
+              <h5 class="h5 timeline-item-title">Perkuliahan KMMB STTB-ITB STIKOM BALI</h5>
+
+              <span>Feb 2020 — Jul 2021</span>
+
+              <p class="timeline-text">
+                • Student exchange program between STT Bandung and ITB STIKOM Bali for one semester during the fourth semester.              </p>
+              <p class="timeline-text">
+                • Developed Digital Plant Web-Based Application and Mobile-Based Share-One Application.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMA Negeri 2 Cibinong</h4>
+
+              <h5 class="h5 timeline-item-title">IPS</h5>
+
+              <span>Jul 2016 — Mey 2019</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMP Negeri 4 Cibinong</h4>
+
+              <span>Jul 2013 — Jun 2016</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SD Negeri Padasuka</h4>
+
+              <span>Mar 2007 — Apr 2013</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <i class="ri-book-open-line"></i>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Android Engineer</h4>
+              <h4 class="h4 timeline-item-title">LukaKu</h4>
+
+              <span>Jul 2022 — Present</span>
+
+              <p class="timeline-text">
+                • Involved in the development of the LukaKu application, particularly in the development of the nearby healthcare services navigation, camera, and wound detection features.
+              </p>
+              <p class="timeline-text">
+                • Created and launched a new company branding, including logo design, brand guidelines, and user manual.
+              </p>
+              <p class="timeline-text">
+                • Involved in the National Competitive Basic Research (PDKN) with the title - The Development of the LukaKu Application as A Tool for Detecting External Wounds with Artificial Intelligence.
+              </p>
+              <p class="timeline-text">
+                • Received a certificate for completing the Bangkit 2022 Incubation Programs.
+              </p>
+              
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mobile Development Learning Path</h4>
+              <h4 class="h4 timeline-item-title">Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</h4>
+
+              <span>Feb 2022 — Jul 2022</span>
+
+              <p class="timeline-text">
+                • Graduate at Bangkit 2022, by Google, GoTo, Traveloka - Android Learning Path.
+              </p>
+              <p class="timeline-text">
+                • Mastering Android Applications concepts and implementation to solve various mobile development problems.
+              </p>
+              <p class="timeline-text">
+                • Received 7 certificates related to Mobile Development through Dicoding Academy. 
+              </p>
+              <p class="timeline-text">
+                • Worked on a Company-Based Capstone Project with LukaKu, instant wound detection services by means of first aid and drug recommendations.
+              </p>
+              <p class="timeline-text">
+                • Received the Bangkit 2022 graduation certificate and the Best Capstone Team certificate.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Android with Java Native</h4>
+              <h4 class="h4 timeline-item-title">Hacktiv8 Indonesia</h4>
+
+              <span>Aug 2021 — Feb 2022</span>
+
+              <p class="timeline-text">
+                • Graduate at Hacktiv8, Studi Independen Kampus Merdeka Batch 1 - Android with Java Native.
+              </p>
+              <p class="timeline-text">
+                • Developed 4 Final Application Projects: ToDoList, Merdeka Belanja, Droidtor, E-Busantara.
+              </p>
+              <p class="timeline-text">
+                • Received 3 certificates related to Mobile Development through Hacktiv8.
+              </p>
+              <p class="timeline-text">
+                • Received a certificate of graduation from Hacktiv8.               
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Android Compose</h5>
+              </div>
+
+              <div class="skill-row-container">
+                <div class="skill-image-container">
+                  <img src="https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=1698883200&v=beta&t=eBYYmaks2GIaSEckdr4WReLxlwMJTQGrJupCa8A7zO0" alt="Udemy">
+                </div>
+                <p class="skill-text">Jetpack Compose Crash course for Android with Kotlin</p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Android Development</h5>
+              </div>
+
+              <div class="skill-row-container">
+                <div class="skill-image-container">
+                  <img src="https://media.licdn.com/dms/image/D560BAQEX4QeJXboCYQ/company-logo_100_100/0/1663253096000?e=1698883200&v=beta&t=UQbcwvkwo6lfXh0TUP6P2_USNMSsdtMgCIdWa4yycvw" alt="LukaKu">
+                </div>
+                <p class="skill-text">
+                  Android Engineer at LukaKu
+                  </p>
+              </div>
+
+              <div class="skill-row-container">
+                <div class="skill-image-container">
+                  <img src="https://media.licdn.com/dms/image/C560BAQEVREspL4ipDQ/company-logo_100_100/0/1623996255613?e=1698883200&v=beta&t=H2w7bNJalWWQtPecdcFM05lCPeytD1rWqDDYdiwwlMw" alt="Bangkit Academy">
+                </div>
+                <p class="skill-text">
+                  Mobile Development Learning Path at Bangkit Academy led by Google, Tokopedia, Gojek, & TravelokaMobile Development Learning Path at Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+                </p>
+              </div>
+
+              <div class="skill-row-container">
+                <div class="skill-image-container">
+                  <img src="https://media.licdn.com/dms/image/D560BAQEKFoWgJid8QQ/company-logo_100_100/0/1681278866452?e=1698883200&v=beta&t=XTB7xGaWYUJSbDrZlNhF7TSCU_gTWfEeVrD_BFf5Q8o" alt="Hectiv8">
+                </div>
+                <p class="skill-text">
+                  Android with Java Native at Hacktiv8 IndonesiaAndroid with Java Native at Hacktiv8 Indonesia
+                </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+              </div>
+
+              <div class="skill-row-container">
+                <div class="skill-image-container">
+                  <img src="https://media.licdn.com/dms/image/D560BAQEKFoWgJid8QQ/company-logo_100_100/0/1681278866452?e=1698883200&v=beta&t=XTB7xGaWYUJSbDrZlNhF7TSCU_gTWfEeVrD_BFf5Q8o" alt="Hectiv8">
+                </div>
+                <p class="skill-text">
+                  Android with Java Native at Hacktiv8 IndonesiaAndroid with Java Native at Hacktiv8 Indonesia
+                </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Kotlin</h5>
+              </div>
+
+              <div class="skill-row-container">
+                <div class="skill-image-container">
+                  <img src="https://media.licdn.com/dms/image/C560BAQEVREspL4ipDQ/company-logo_100_100/0/1623996255613?e=1698883200&v=beta&t=H2w7bNJalWWQtPecdcFM05lCPeytD1rWqDDYdiwwlMw" alt="Bangkit Academy">
+                </div>
+                <p class="skill-text">
+                  Mobile Development Learning Path at Bangkit Academy led by Google, Tokopedia, Gojek, & TravelokaMobile Development Learning Path at Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+                </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">User Experience Design (UED)</h5>
+              </div>
+
+              <div class="skill-row-container">
+                <div class="skill-image-container">
+                  <img src="https://media.licdn.com/dms/image/D560BAQEX4QeJXboCYQ/company-logo_100_100/0/1663253096000?e=1698883200&v=beta&t=UQbcwvkwo6lfXh0TUP6P2_USNMSsdtMgCIdWa4yycvw" alt="LukaKu">
+                </div>
+                <p class="skill-text">
+                  Android Engineer at LukaKu
+                  </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic Design & Branding</h5>
+              </div>
+
+              <div class="skill-row-container">
+                <div class="skill-image-container">
+                  <img src="https://media.licdn.com/dms/image/D560BAQEX4QeJXboCYQ/company-logo_100_100/0/1663253096000?e=1698883200&v=beta&t=UQbcwvkwo6lfXh0TUP6P2_USNMSsdtMgCIdWa4yycvw" alt="LukaKu">
+                </div>
+                <p class="skill-text">
+                  Android Engineer at LukaKu
+                  </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Technical Support</h5>
+              </div>
+
+              <div class="skill-row-container">
+                <div class="skill-image-container">
+                  <img src="https://media.licdn.com/dms/image/C4D0BAQGexnfBxeEG-g/company-logo_100_100/0/1608039227697?e=1698883200&v=beta&t=TWDJu4HJzzBTBN55OcuVIG8MLuQU-ru4ou83C7WpAp0" alt="corsera">
+                </div>
+                <p class="skill-text">
+                  Specialized Google IT Support
+                  </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobile development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>UI/UX Design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Logo and Branding Design</button>
+            </li>
+      
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://nuryadincjr.github.io/Wonderful-Cianjur/"
-                            target="_blank">Wonderful Cianjur</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mobile development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>UI/UX Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Logo and Branding Design</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://play.google.com/store/apps/details?id=id.lukaku.app">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="https://play-lh.googleusercontent.com/0Bfy7SDhy5CIXEqtsf16SU9auotB3Z2SGrLjda1M3lIuwOiZX93LzIlyHFwkhIa4tA=w416-h235" alt="lukaku" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LukaKu</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://www.youtube.com/watch?v=N_WIdHJhvfo&t=0s">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/users/6024977/screenshots/15116324/media/ac9a2fa4273d0505762124a54f625db9.jpg?resize=768x576&vertical=center" alt="sistem informasi akuntansi (sia)" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sistem Informasi Akuntansi (SIA)</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile development">
+              <a href="https://github.com/LukaKu-Bangkit2022">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="./assets/images/project-01.jpg" alt="lukaku incubation project bangkit 2022" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LukaKu Incubation Project Bangkit 2022</h3>
+
+                <p class="project-category">Mobile development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile development">
+              <a href="https://github.com/LukaKu-Bangkit2022">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="./assets/images/porject-02.png" alt="lukaku capstone project bangkit 2022" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LukaKu Capstone Project Bangkit 2022</h3>
+
+                <p class="project-category">Mobile development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile development">
+              <a href="https://github.com/nuryadincjr/finalproject4-kelompok2">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="./assets/images/project-07.png" alt="e-busantara" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E-Busantara</h3>
+
+                <p class="project-category">Mobile development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile development">
+              <a href="https://github.com/nuryadincjr/finalproject3-kelompok2">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="./assets/images/project-08.png" alt="droidtor" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Droidtor</h3>
+
+                <p class="project-category">Mobile development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile development">
+              <a href="https://github.com/nuryadincjr/finalproject2-kelompok2">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="./assets/images/project-09.png" alt="merdeka belanja" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mobile development</h3>
+
+                <p class="project-category">Mobile development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile development">
+              <a href="https://github.com/nuryadincjr/finalproject1-kelompok2">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="./assets/images/project-06.png" alt="to do list" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">To Do List</h3>
+
+                <p class="project-category">Mobile development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile development">
+              <a href="https://www.youtube.com/watch?v=CHsbaZpFL3M">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/users/6024977/screenshots/15915524/media/6cef4c29be1227e235a466cacd644904.jpg?resize=700x525&vertical=center" alt="share-on" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Share-On</h3>
+
+                <p class="project-category">Mobile development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.youtube.com/watch?v=yUffNY_xW-g">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="https://img.youtube.com/vi/yUffNY_xW-g/maxresdefault.jpg" alt="tanaman digital" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tanaman Digital</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ui/ux design">
+              <a href="https://sttbandungacid-my.sharepoint.com/:p:/g/personal/19552011182_sttbandung_ac_id/EdJix5vp5PJDvc8icHV-348Bvpt9n18udjEOgOkB68MVgA">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="./assets/images/project-05.jpg" alt="luxa (deteksi luka dengan kamera)" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Luxa (Deteksi luka dengan kamera)</h3>
+
+                <p class="project-category">UI/UX Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ui/ux design">
+              <a href="https://www.youtube.com/watch?v=OzqvJP0SrDI">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="./assets/images/project-04.jpg" alt="gemastik 14 desain pengalaman pengguna - 14040616 - bahasa nusantara - shareon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">GEMASTIK 14 Desain Pengalaman Pengguna - 14040616 - Bahasa Nusantara - ShareOn</h3>
+
+                <p class="project-category">UI/UX Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ui/ux design">
+              <a href="https://dribbble.com/shots/15909156-CakeQue-UI">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/users/6024977/screenshots/15909156/media/cba8aed9205304a3522a88046e4fc20f.jpg?resize=700x525&vertical=center" alt="cakeQue ui" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CakeQue UI</h3>
+
+                <p class="project-category">UI/UX Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ui/ux design">
+              <a href="https://dribbble.com/shots/14366913-Aplikasi-Al-Qur-an-Do-a-Hadis-dan-Konten-Islam">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/users/6024977/screenshots/14366913/media/6c47c0c04adb081d14a9301d15822801.jpg?resize=700x525&vertical=center" alt="aplikasi al-qur'an, do'a, hadis dan konten islam" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aplikasi Al-Qur'an, Do'a, Hadis dan Konten Islam</h3>
+
+                <p class="project-category">UI/UX Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="logo and branding design">
+              <a href="https://drive.google.com/file/d/1BevHnXDi4U8JkAPDIU1IB29_vNu97sne/view?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="./assets/images/project-03.jpg" alt="rebranding logo lukaku" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Rebranding Logo LukaKu</h3>
+
+                <p class="project-category">Logo and Branding Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="logo and branding design">
+              <a href="https://sttbandungacid-my.sharepoint.com/:b:/g/personal/19552011182_sttbandung_ac_id/EeL_QqyCZgBNp1HpjYojZaUBTB8dzkQb0Zi1_07f2ayjTg?e=NxGihb">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/users/6024977/screenshots/17239795/media/aedb55fb4cc60b07c7227703fba1d7f1.jpg?resize=768x576&vertical=center" alt="rebranding logo smk ti bali global" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Rebranding Logo SMK TI Bali Global</h3>
+
+                <p class="project-category">Logo and Branding Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="logo and branding design">
+              <a href="https://dribbble.com/shots/15948574-Channel-Naonnya-Logo">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/users/6024977/screenshots/15948574/media/2781aaf47245c9d356c7ba4a113bb812.jpg?resize=700x525&vertical=center" alt="channel naonnya logo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Channel Naonnya Logo</h3>
+
+                <p class="project-category">Logo and Branding Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="logo and branding design">
+              <a href="https://dribbble.com/shots/15915511-Share-Online">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/users/6024977/screenshots/15915511/media/9105c8cdd6103aa97177d5de968e999e.jpg?resize=700x525&vertical=center" alt="share-online" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Share-Online</h3>
+
+                <p class="project-category">Logo and Branding Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="logo and branding design">
+              <a href="https://dribbble.com/shots/15362343-Cake-Que">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <i class="ri-eye-line"></i>
+                  </div>
+
+                  <img src="https://cdn.dribbble.com/users/6024977/screenshots/15362343/media/f20bb1f7fccef71ca305fb8cc8d1f307.png?resize=700x525&vertical=center" alt="cake que" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cake Que</h3>
+
+                <p class="project-category">Logo and Branding Design</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d247.51855184091343!2d107.81491132358431!3d-6.974263689363852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTgnMjcuNCJTIDEwN8KwNDgnNTQuMSJF!5e0!3m2!1sid!2sid!4v1690873260978!5m2!1sid!2sid" 
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+          
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/xvojzqbj" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
-        </div>
-    </nav>
-    <!-- Akhir Navbar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-        <img src="img/me.jpg" Nuryadin Abutani" width="200" class="rounded-circle img-ta  img-thumbnail" />
-        <h1 class="display-4">Nuryadin Abutani</h1>
-        <p class="lead">College Student | Creators</p>
-        <p class="lead"><i>"Be a Developer not just a User, then Learn and practice"</i></p>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#ffffff" fill-opacity="1"
-                d="M0,0L21.8,37.3C43.6,75,87,149,131,181.3C174.5,213,218,203,262,165.3C305.5,128,349,64,393,74.7C436.4,85,480,171,524,202.7C567.3,235,611,213,655,186.7C698.2,160,742,128,785,144C829.1,160,873,224,916,218.7C960,213,1004,139,1047,122.7C1090.9,107,1135,149,1178,154.7C1221.8,160,1265,128,1309,106.7C1352.7,85,1396,75,1418,69.3L1440,64L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z">
-            </path>
-        </svg>
-    </section>
-    <!-- Akhir Jumbroton -->
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-    <!-- About -->
-    <section id="about">
-        <div class="contener">
-            <div class="row text-center mb-4">
-                <div class="col">
-                    <h2>About Me</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center fs-5 text-center ">
-                <div class="col-md-4">
-                    <p>
-                        Seseorang yang ingin belajar menjadi lebih baik dan mencoba semua bidang keilmuan yang ada.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <p>
-                        Amalan yang paling baik adalah doa usaha dan bertawakal, karena itu adalah jalan ke suksesan.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#ececec" fill-opacity="1"
-                d="M0,160L30,133.3C60,107,120,53,180,69.3C240,85,300,171,360,213.3C420,256,480,256,540,250.7C600,245,660,235,720,218.7C780,203,840,181,900,165.3C960,149,1020,139,1080,149.3C1140,160,1200,192,1260,202.7C1320,213,1380,203,1410,197.3L1440,192L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
-            </path>
-        </svg>
-    </section>
-    <!-- Akhir About -->
-
-    <!-- Projects -->
-    <section id="projects">
-        <div class="container">
-            <div class="row text-center mb-4">
-                <div class="col">
-                    <h2>My Projects</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4  mb-3">
-                    <div class="card">
-                        <img src="img/projects/1.png" class="card-img-top" alt="Brand Architectur">
-                        <div class="card-body">
-                            <p class="card-text">Brand architecture dari <i>Abu Unity</i> mencangkup <i>magic of
-                                    code</i> untuk
-                                programmer, <i>magic of design</i> untuk desainer, <i>magic of tube</i> untuk konten
-                                YouTube, dan
-                                <i>magic of health</i> untuk gaya hidup. Semua desain yang di publikasi bisa di kunjugi
-                                di <a href="https://dribbble.com/abugrayhat">dribbble.com/abugrayhat.</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/projects/2.jpg" class="card-img-top" alt="Brand Architectur">
-                        <div class="card-body">
-                            <p class="card-text">Desain UI dari sebuah aplikasi Al-Quran yang di adopsi dari aplikasi
-                                Al-Quran Indonesia, dengan penyesuaian desain yang lebih menarik.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/projects/3.png" class="card-img-top" alt="Brand Architectur">
-                        <div class="card-body">
-                            <p class="card-text">Desain UI yang diadopsi langsung dari aplikasi musik ternama yaitu
-                                JOOX, dimana desain UI dibuat menjadi lebih moderen dengan tema <i>glass morphism.</i>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/projects/4.jpg" class="card-img-top" alt="Brand Architectur">
-                        <div class="card-body">
-                            <p class="card-text">Desain UI/UX aplikasi belajar mengaji untuk anak-anak, sekaligus
-                                implementasi ke sebuah aplikasi berbasis android
-                                yang dibuat dengan bahasa pemrograman java di Android Studio.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/projects/5.png" class="card-img-top" alt="Brand Architectur">
-                        <div class="card-body">
-                            <p class="card-text">Sebuah desain brand inofasi bisnis, dimana ini bagian dari projek
-                                matakuliah Sistem Bisnis Hospitality pertukaran pelajar ITB STIKOM Bali dengan
-                                STTBandung dengan mengangkat tema Bisnis Kuliner pada olahan <i>Putu Ayu.</i></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/projects/6.png" class="card-img-top" alt="Brand Architectur">
-                        <div class="card-body">
-                            <p class="card-text">Salahsatu inofasi logo dari channnel YouTube
-                                <a href="https://www.youtube.com/channel/UC-ZykAWPhPVM275QiqKXEAg">Channel Naonnya</a>
-                                yang
-                                bertemakan benih tumbuhan hijou sebagai filosopi kehidupan dan berbentuk tanda tanya
-                                bermakna tandatanya kehidupan.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/projects/7.png" class="card-img-top" alt="Brand Architectur">
-                        <div class="card-body">
-                            <p class="card-text">Mencoba merefresentasikan Logo Kabupaten Cianjur menjadi Logo dari
-                                brand makakanan yaitu usaha nasi goreng khas Cianjur, yang di dominasi dengan
-                                warna kuning melambangkan mentari, hijau melambangkan gunung atau kesuburan, dan biru
-                                melambangkan air atau kemakmuran.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/projects/8.png" class="card-img-top" alt="Brand Architectur">
-                        <div class="card-body">
-                            <p class="card-text">Mencoba menjadi desaner font yang berjiwa kreatif sekaligus inopatif,
-                                menjadi tantangan tersendiri diluar bidang programming.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/projects/9.jpg" class="card-img-top" alt="Brand Architectur">
-                        <div class="card-body">
-                            <p class="card-text">Belajar pemrograman tentu menjadi hal yang wajib bagi mahasiswa teknik
-                                informatika, halitu diwujudkan dengan project tugas besar smester 3 mengenai Sistem
-                                Informasi Akntansi. Demo dari aplikasi bisa di tonton di channnel YouTube
-                                <a href="https://www.youtube.com/channel/UC-ZykAWPhPVM275QiqKXEAg">Channel Naonnya.</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#ffffff" fill-opacity="1"
-                d="M0,160L26.7,154.7C53.3,149,107,139,160,165.3C213.3,192,267,256,320,266.7C373.3,277,427,235,480,181.3C533.3,128,587,64,640,85.3C693.3,107,747,213,800,240C853.3,267,907,213,960,197.3C1013.3,181,1067,203,1120,186.7C1173.3,171,1227,117,1280,128C1333.3,139,1387,213,1413,250.7L1440,288L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
-            </path>
-        </svg>
-    </section>
-    <!-- Akhir Projects -->
-
-    <!-- Contact -->
-    <section id="contact">
-        <div class="container">
-            <div class="row text-center mb-4">
-                <div class="col">
-                    <h2>Contact Me</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="alert alert-secondary alert-dismissible fade show d-none my-alert" role="alert">
-                        <strong>Terimakasih!</strong> Pesan Anda telah kami terima.
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                    </div>
-                    <form name="abu-contact">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Nama Lengkap</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
-                        </div>
-                        <div class="mb-3">
-                            <label for="pesan" class="form-label">Pesan</label>
-                            <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-                        </div>
-                        <button type="submit" class="btn text-white bg-col btn-kirim">Kirim</button>
-
-                        <button class="btn text-white bg-col btn-loading d-none" type="button" disabled>
-                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                            Sending...
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#444444" fill-opacity="1"
-                d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-            </path>
-        </svg>
-    </section>
-    <!-- Akhir Contact -->
-
-    <!-- Footer Social -->
-    <section id="social" class="bg-col">
-        <div class="container justify-content-center text-center col-lg-4 pb-5">
-            <a class="btn btn-outline-light btn-social mx-1 mb-3"
-                href="http://api.whatsapp.com/send?phone=6288223348928&text=Halo%0ASaya Ingin Bekerja Sama dengan Anda."
-                target="blank"><i class="fab fa-whatsapp"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1 mb-3" href="http://facebook.com/nuryadin.cjr"
-                target="blank"><i class="fab fa-facebook-square"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1 mb-3" href="http://instagram.com/nuryadin.cjr"
-                target="blank"><i class="fab fa-instagram"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1 mb-3"
-                href="http://youtube.com/channel/UC-ZykAWPhPVM275QiqKXEAg?sub_confirmation=1" target="blank"><i
-                    class="fab fa-youtube"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1 mb-3"
-                href="http://linkedin.com/in/nuryadin-abutani-8b38b2195" target="blank"><i
-                    class="fab fa-linkedin"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1 mb-3" href="http://github.com/nuryadincjr" target="blank"><i
-                    class="fab fa-github"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1 mb-3" href="http://dribbble.com/nuryadincjr"
-                target="blank"><i class="fas fa-basketball-ball"></i></a>
-
-        </div>
-    </section>
-    <!-- Akhir Footer Social -->
-
-    <!-- Footer -->
-    <footer class="bg-col text-white text-center p-3">
-        <p>
-            Created with <i class="bi bi-heart-fill"></i> by <a href="https://www.instagram.com/abugrayhat"
-                class="text-white fw-bold">Nuryadin
-                Abitani</a>
-        </p>
-    </footer>
-    <!-- Akhir Footer -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
-    </script>
-    <script>
-        const scriptURL =
-            'https://script.google.com/macros/s/AKfycbytCNboa19kjkt6AtgGM0TACeyGErR4HFVlsRiRPjQu2k9LtjZLyQUjIdCpNGYWRsfCZw/exec'
-        const form = document.forms['abu-contact']
-
-        const btnKirim = document.querySelector('.btn-kirim');
-        const btnLoading = document.querySelector('.btn-loading');
-        const myAlert = document.querySelector('.my-alert');
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <i class="ri-send-plane-line"></i>
+              <span>Send Message</span>
+            </button>
 
 
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            btnLoading.classList.toggle('d-none');
-            btnKirim.classList.toggle('d-none');
+          </form>
 
-            fetch(scriptURL, {
-                    method: 'POST',
-                    body: new FormData(form)
-                })
-                .then(response => {
-                    console.log('Success!', response)
-                    btnLoading.classList.toggle('d-none')
-                    btnKirim.classList.toggle('d-none')
-                    myAlert.classList.toggle('d-none')
-                    form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
-        })
-    </script>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
 
 </body>
 
