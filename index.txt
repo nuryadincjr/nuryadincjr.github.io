@@ -249,7 +249,21 @@ alt = cake que
 Cake Que
 Logo and Branding Design
 
+alt = Logo HJKB Ke-213 Tahun
+Hari Jadi Kota Bandung Ke-213 Tahun
+Logo and Branding Design
 
+alt = Logo HJPJT Ke-78 Tahun
+Hari Jadi Provinsi Jawa Timur Ke-78 Tahun
+Logo and Branding Design
+
+alt = Logo HJKM Ke-152 Tahun
+Hari Jadi Kota Manggar Ke-152 Tahun
+Logo and Branding Design
+
+alt = Logo HJKS Ke-24 Tahun
+Hari Jadi Kota Siak Ke-24 Tahun
+Logo and Branding Design
 
 # contact
 
