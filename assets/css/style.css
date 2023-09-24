@@ -1057,7 +1057,27 @@ header {
 }
 
 
+/*-----------------------------------*\
+  #BOOKCASE
+\*-----------------------------------*/
 
+.iframe-bookcases {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  border: 1px solid var(--jet);
+  overflow: hidden;
+}
+
+.iframe-bookcases figure { height: 100%; }
+
+.iframe-bookcases iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
 /*-----------------------------------*\
   #CONTACT
@@ -1453,7 +1473,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .blog-content { padding: 25px; }
 
+/**
+   * #BOOKCASES
+   */
 
+   .iframe-bookcases {
+    height: 480px;
+    border-radius: 18px;
+  }
 
   /**
    * #CONTACT
@@ -1878,21 +1905,5 @@ input:checked + .slider:before {
 	 */
 
   .timeline-text { max-width: 700px; }
-
-
-  
-/**
-	 * BOOKCASES
-	 */
-
-.iframe-bookcases {
-  position: relative;
-  height: 380px;
-  width: 100%;
-  border-radius: 18px;
-  margin-bottom: 30px;
-  border: 1px solid var(--jet);
-  overflow: hidden;
-}
 
 }
