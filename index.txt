@@ -265,7 +265,9 @@ alt = Logo HJKS Ke-24 Tahun
 Hari Jadi Kota Siak Ke-24 Tahun
 Logo and Branding Design
 
-
+alt = Logo BARANTIN
+Konsep Visual Identitas Logo Badan Karantina Indonesia
+Logo and Branding Design
 
 # bookcases
 
