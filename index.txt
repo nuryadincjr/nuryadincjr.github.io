@@ -249,25 +249,31 @@ alt = cake que
 Cake Que
 Logo and Branding Design
 
-alt = Logo HJKB Ke-213 Tahun
-Hari Jadi Kota Bandung Ke-213 Tahun
+alt = Logo HJKB ke-213 Tahun
+Hari Jadi Kota Bandung ke-213 Tahun
 Logo and Branding Design
 
-alt = Logo HJPJT Ke-78 Tahun
-Hari Jadi Provinsi Jawa Timur Ke-78 Tahun
+alt = Logo HJPJT ke-78 Tahun
+Hari Jadi Provinsi Jawa Timur ke-78 Tahun
 Logo and Branding Design
 
-alt = Logo HJKM Ke-152 Tahun
-Hari Jadi Kota Manggar Ke-152 Tahun
+alt = Logo HJKM ke-152 Tahun
+Hari Jadi Kota Manggar ke-152 Tahun
 Logo and Branding Design
 
-alt = Logo HJKS Ke-24 Tahun
-Hari Jadi Kota Siak Ke-24 Tahun
+alt = Logo HJKS ke-24 Tahun
+Hari Jadi Kota Siak ke-24 Tahun
 Logo and Branding Design
 
 alt = Logo BARANTIN
 Konsep Visual Identitas Logo Badan Karantina Indonesia
 Logo and Branding Design
+
+
+alt = Logo HJKP ke-252 Tahun
+Dua Lima Dua HJKP ke-252 Tahun Kota Pontianak
+Logo and Branding Design
+
 
 # bookcases
 
