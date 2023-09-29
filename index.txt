@@ -274,6 +274,10 @@ alt = Logo HJKP ke-252 Tahun
 Dua Lima Dua HJKP ke-252 Tahun Kota Pontianak
 Logo and Branding Design
 
+alt = Logo Jamkrida Jakarta
+Usulan Dua Konsep Logo dan Pilosofi Logo Jamkrida Jakarta
+Logo and Branding Design
+
 
 # bookcases
 
