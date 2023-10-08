@@ -282,6 +282,11 @@ alt = Logo Universitas Sains dan Teknolgoi Indonesia
 Usulan Tiga Konsep Logo dan Pilosofi Universitas Sains dan Teknolgoi Indonesia
 Logo and Branding Design
 
+
+alt = Logo UIN SSC
+Pedoman Identitas Visual Universitas Islam Negeri Siber Syekh Nurjati Cirebon
+Logo and Branding Design
+
 # bookcases
 
 Bookcases
