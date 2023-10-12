@@ -287,6 +287,10 @@ alt = Logo UIN SSC
 Pedoman Identitas Visual Universitas Islam Negeri Siber Syekh Nurjati Cirebon
 Logo and Branding Design
 
+alt = Logo Hari Jadi Ke-15 Kab. Mesuji
+Tiga Konsep dan Pilosofi logo Kabupaten Mesuji
+Logo and Branding Design
+
 # bookcases
 
 Bookcases
