@@ -302,6 +302,10 @@ alt = Logo GIK UGM
 Konsep Identitas Visual GIK UGM
 Logo and Branding Design
 
+alt = Logo City Branding Grobogan
+Pedoman Identitas Visual City Branding Kabupaten Grobogan
+Logo and Branding Design
+
 # bookcases
 
 Bookcases
