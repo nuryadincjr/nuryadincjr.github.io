@@ -306,6 +306,23 @@ alt = Logo City Branding Grobogan
 Pedoman Identitas Visual City Branding Kabupaten Grobogan
 Logo and Branding Design
 
+
+alt = Logo LPSK (Logo Usulan 1)
+Panduan Standard Logo Lembaga Perlindungan Saksi dan Korban (Logo Usulan 1)
+Logo and Branding Design
+
+alt = Logo LPSK (Logo Usulan 2)
+Panduan Standard Logo Lembaga Perlindungan Saksi dan Korban (Logo Usulan 2)
+Logo and Branding Design
+
+alt = Logo Popda Xi & Peparpeda Vii Kota Tangerang Banten
+Panduan Standard Logo - Popda Xi & Peparpeda Vii Kota Tangerang Banten
+Logo and Branding Design
+
+alt = 75 Years Of Diplomatic Relations India & Indonesia Logo
+Standard Guidelines For The 75 Years Of Diplomatic Relations India & Indonesia Logo
+Logo and Branding Design
+
 # bookcases
 
 Bookcases
