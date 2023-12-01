@@ -312,7 +312,7 @@ main {
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: max-content; }
 
 .sidebar-info {
   position: relative;
@@ -845,41 +845,23 @@ header {
  * skills 
  */
 
-.skills-title { margin-bottom: 20px; }
+ .skills-title {
+  margin-bottom: 20px;
+}
 
-.skills-list { padding: 20px; }
-
-
-.skills-item:not(:last-child) { margin-bottom: 15px; }
-
-.skill .title-wrapper {
+.skills-list {
+  padding: 20px;
   display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 8px;
+  flex-wrap: wrap;
 }
 
-.skill .title-wrapper data {
-  color: var(--light-gray);
-  font-size: var(--fs-7);
-  font-weight: var(--fw-300);
+.skills-item {
+  flex: 0 0 calc(33.33% - 10px); 
+  margin-bottom: 15px;
+  box-sizing: border-box;
 }
 
-.skill-progress-bg {
-  background: var(--jet);
-  width: 100%;
-  height: 8px;
-  border-radius: 10px;
-}
-
-.skill-progress-fill {
-  background: var(--text-gradient-yellow);
-  height: 100%;
-  border-radius: inherit;
-}
-
-
-/* SKIL SET */
+/* SKILL SET */
 .skill-row-container {
   display: flex;
   align-items: center;
@@ -887,11 +869,11 @@ header {
 }
 
 .skill-image-container {
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .skill-image-container img {
-  width: 30px; 
+  width: 30px;
   height: auto;
 }
 
@@ -1130,7 +1112,6 @@ header {
 textarea.form-input {
   min-height: 100px;
   height: 120px;
-  max-height: 200px;
   resize: vertical;
   margin-bottom: 25px;
 }
@@ -1294,7 +1275,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: max-content; }
 
   .sidebar-info { gap: 25px; }
 
@@ -1350,6 +1331,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .about-text { margin-bottom: 40px; }
 
+  .justified-text {
+    text-align: justify;
+  }
+  
   /* service */
 
   .service-item {
